@@ -31,5 +31,5 @@ Revoke write-access for users other that the ones specified in the script file f
 	./github_cli.py set_readonly kake
 
 ## Note
-As of this day (02. jan 2017), the [Github](https://github.com/PyGithub/PyGithub) does not support specifying the access leves when adding a collaborator to a repo owned by an organization.
+As of this day (02. jan 2017), the [Github](https://github.com/PyGithub/PyGithub) library does not support specifying the access leves when adding a collaborator to a repo owned by an organization.
 The solution is to currently use my [version](https://github.com/NikolaiMagnussen/PyGithub) that hopefully will be merged into the actual library.
